@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T16:00:07.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="Xp7e5KmqnumaudVXR2Vr" version="24.4.15" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-06T16:02:02.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="Q6M99h2gaT_dXs6lY6wf" version="24.4.15" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="spring mvc时序图">
     <mxGraphModel dx="1750" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,22 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="335" y="695" as="sourcePoint" />
             <mxPoint x="370" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIotClVCNdmH4BLausW9-1" value="HandlerMapping" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="400" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="eIotClVCNdmH4BLausW9-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="eIotClVCNdmH4BLausW9-1">
+          <mxGeometry x="45" y="360" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eIotClVCNdmH4BLausW9-3" value="获取处理器链" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="eIotClVCNdmH4BLausW9-2" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="765" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIotClVCNdmH4BLausW9-4" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="eIotClVCNdmH4BLausW9-2" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="835" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
