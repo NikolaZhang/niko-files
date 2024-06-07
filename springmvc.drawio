@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T01:20:26.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="E2CQatDQt3b-2BeaJmQi" version="24.4.14" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-07T01:23:14.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="MYv9mtjUFc_CjaRDs-bP" version="24.4.14" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="spring mvc时序图">
     <mxGraphModel dx="2495" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="UzaOYRNjPjFEmirXTNGk-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="UzaOYRNjPjFEmirXTNGk-0">
           <mxGeometry x="45" y="490" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UzaOYRNjPjFEmirXTNGk-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="UzaOYRNjPjFEmirXTNGk-0">
+        <mxCell id="UzaOYRNjPjFEmirXTNGk-8" value="调用业务方法" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UzaOYRNjPjFEmirXTNGk-0">
           <mxGeometry x="45" y="740" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UzaOYRNjPjFEmirXTNGk-2" value="获取HandlerAdapter" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="UzaOYRNjPjFEmirXTNGk-1" parent="WIyWlLk6GJQsqaUBKTNV-1">
