@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T09:30:48.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="MhHYZprl8jtn85chLO5D" version="24.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-12T10:13:33.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="j_F5ooGnfeXj9oNRDA_w" version="24.5.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="spring mvc时序图">
     <mxGraphModel dx="2495" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,10 +325,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="42q4_Z8JdY3RMLV5Cw1p" name="第 5 页">
-    <mxGraphModel dx="1579" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8d_UEMowKLRcBDOO599O-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8d_UEMowKLRcBDOO599O-1" target="8d_UEMowKLRcBDOO599O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8d_UEMowKLRcBDOO599O-1" value="invokeInitMethods:1855, AbstractAutowireCapableBeanFactory (org.springframework.beans.factory.support)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8d_UEMowKLRcBDOO599O-2" value="" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8JvqUm0mmCr2ae1ReR39" name="doCreateBean">
+    <mxGraphModel dx="1418" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I0cOqCuOyhGxlaiEB7pQ-2" value="doCreateBean:595, AbstractAutowireCapableBeanFactory (org.springframework.beans.factory.support)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I0cOqCuOyhGxlaiEB7pQ-3" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;createBeanInstance&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
