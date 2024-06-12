@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T15:06:44.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="E-mW1kujvhqDGZW-lQwN" version="24.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-12T16:17:23.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="MzUjLYe0a605h4afxvDT" version="24.5.3" type="github" pages="6">
   <diagram name="refresh" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="3058" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -913,31 +913,45 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="qUJD8UHOBu6UR1Ye2-HP" name="doCreateBean">
-    <mxGraphModel dx="2018" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="qUJD8UHOBu6UR1Ye2-HP" name="createBean">
+    <mxGraphModel dx="882" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y3tB1lrPq91oRRTInYZL-3" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry y="260" width="380" height="50" as="geometry" />
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;AbstractBeanFactory&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y3tB1lrPq91oRRTInYZL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y3tB1lrPq91oRRTInYZL-5" target="y3tB1lrPq91oRRTInYZL-9" edge="1">
+        <UserObject label="org.springframework.beans.factory.support.AbstractBeanFactory#createBean" link="org.springframework.beans.factory.support.AbstractBeanFactory#createBean" id="IysYLHnOM9V4bGzLZrS5-2">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="190" width="440" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-3" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;AbstractBeanFactory&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="220" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-4" value="&lt;span style=&quot;text-align: left;&quot;&gt;createBean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IysYLHnOM9V4bGzLZrS5-3">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-6" value="获取bean的实际类型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="IysYLHnOM9V4bGzLZrS5-6" target="IysYLHnOM9V4bGzLZrS5-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="960" as="sourcePoint" />
+            <mxPoint x="730.7106781186548" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-8" value="&lt;div&gt;resolveBeanClass方法是Spring框架中BeanDefinition接口的一个方法,它的作用是确定一个Bean的实际类型。&lt;/div&gt;&lt;div&gt;在Spring中,Bean的定义可以通过多种方式进行,比如XML配置、注解配置、编程方式配置等。而Bean的实际类型可能与配置的类型不同,例如:&lt;/div&gt;&lt;div&gt;配置了一个接口或抽象类,实际上需要一个具体的实现类。&lt;/div&gt;&lt;div&gt;使用了工厂方法或者工厂Bean,配置的是工厂类,而实际Bean是工厂方法返回的实例。&lt;/div&gt;&lt;div&gt;使用了FactoryBean,配置的是FactoryBean类,而实际Bean是FactoryBean#getObject()方法返回的实例。&lt;/div&gt;&lt;div&gt;resolveBeanClass方法的作用就是解析并返回Bean的实际运行时类型。它会考虑上述情况,根据配置的Bean类型、工厂方法、FactoryBean等信息,计算出Bean的真正的运行时类型。&lt;/div&gt;&lt;div&gt;这个方法对Spring容器的正确实例化和管理Bean非常重要。Spring在创建Bean的实例时,需要准确地知道Bean的实际类型,才能进行正确的实例化、依赖注入等操作。&lt;/div&gt;&lt;div&gt;总之,resolveBeanClass方法是Spring容器在创建Bean实例前,确定Bean真实类型的重要一步,是Spring正确加载和管理Bean的基础。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="895" width="463" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IysYLHnOM9V4bGzLZrS5-9" target="IysYLHnOM9V4bGzLZrS5-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y3tB1lrPq91oRRTInYZL-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="190" y="410" width="80" height="80" as="geometry" />
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="740" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T1T1c9J9SGIJA3wPToxE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3tB1lrPq91oRRTInYZL-9" target="T1T1c9J9SGIJA3wPToxE-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="y3tB1lrPq91oRRTInYZL-9" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;createBeanInstance&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="560" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="T1T1c9J9SGIJA3wPToxE-1" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;createBeanInstance&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="680" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="T1T1c9J9SGIJA3wPToxE-3" value="&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="810" width="440" height="200" as="geometry" />
+        <mxCell id="IysYLHnOM9V4bGzLZrS5-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;bean的创建入口为&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
