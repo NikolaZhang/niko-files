@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T16:27:18.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="toI1WYz2w6slcv_xc8KG" version="24.5.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-14T00:34:00.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="NXjLO3OsNBJYdqlOSucf" version="24.5.4" type="github" pages="6">
   <diagram name="refresh" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="3058" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -914,11 +914,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qUJD8UHOBu6UR1Ye2-HP" name="createBean">
-    <mxGraphModel dx="1325" dy="753" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="646" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IysYLHnOM9V4bGzLZrS5-6" target="Ja9iDmBJrGFlE1mTThMf-1">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IysYLHnOM9V4bGzLZrS5-6" target="Ja9iDmBJrGFlE1mTThMf-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IysYLHnOM9V4bGzLZrS5-6" value="获取bean的实际类型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
@@ -930,77 +930,77 @@
         <mxCell id="IysYLHnOM9V4bGzLZrS5-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="340" y="610" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-1" target="Ja9iDmBJrGFlE1mTThMf-7">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-1" target="Ja9iDmBJrGFlE1mTThMf-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-1" value="尝试获取bean的代理实例" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-1" value="尝试获取bean的代理实例" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="890" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-7" target="Ja9iDmBJrGFlE1mTThMf-13">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-7" target="Ja9iDmBJrGFlE1mTThMf-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-12" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ja9iDmBJrGFlE1mTThMf-11">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-12" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ja9iDmBJrGFlE1mTThMf-11" vertex="1" connectable="0">
           <mxGeometry x="-0.3" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-7" target="Ja9iDmBJrGFlE1mTThMf-21">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-7" target="Ja9iDmBJrGFlE1mTThMf-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-23" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ja9iDmBJrGFlE1mTThMf-22">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-23" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ja9iDmBJrGFlE1mTThMf-22" vertex="1" connectable="0">
           <mxGeometry x="-0.125" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-7" value="存在代理实例" style="shape=rhombus;whiteSpace=wrap;html=1;backgroundOutline=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-7" value="存在代理实例" style="shape=rhombus;whiteSpace=wrap;html=1;backgroundOutline=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="310" y="1010" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1150" width="80" height="80" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-21" target="Ja9iDmBJrGFlE1mTThMf-29">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-21" target="Ja9iDmBJrGFlE1mTThMf-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-21" value="创建bean的实例" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1020" width="140" height="50" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-21" value="创建bean的实例" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1169" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-24" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;resolveBeanClass&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-24" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;resolveBeanClass&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="765" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-25" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;resolveBeforeInstantiation&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-25" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;resolveBeforeInstantiation&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="10" y="885" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-26" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;createBeanInstance&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="960" width="200" height="60" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-26" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;createBeanInstance&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1159" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-29" target="Ja9iDmBJrGFlE1mTThMf-36">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-29" target="Ja9iDmBJrGFlE1mTThMf-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-29" value="修改bean定义" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1150" width="140" height="50" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-29" value="修改bean定义" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1299" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-31" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;applyMergedBeanDefinitionPostProcessors&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;调用MergedBeanDefinitionPostProcessor的&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;postProcessMergedBeanDefinition方法&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1130" width="420" height="70" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-31" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;applyMergedBeanDefinitionPostProcessors&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;调用MergedBeanDefinitionPostProcessor的&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;postProcessMergedBeanDefinition方法&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1279" width="420" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-35" value="&lt;font face=&quot;-apple-system, blinkmacsystemfont, Helvetica Neue, helvetica, segoe ui, arial, roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.5px; white-space-collapse: preserve;&quot;&gt;在 Spring 中，addSingletonFactory 方法是 DefaultSingletonBeanRegistry 类中的一个重要方法，它的主要作用是将一个单例 Bean 的 ObjectFactory 存储到 singletonFactories 缓存中。具体来说，它的作用包括以下几个方面：&lt;br/&gt;解决单例 Bean 的循环依赖问题&lt;br/&gt;这是 addSingletonFactory 方法最主要的作用。在创建单例 Bean 时，如果发生循环依赖，Spring 会通过 addSingletonFactory 方法将当前 Bean 的 ObjectFactory 存储到 singletonFactories 缓存中。后续在依赖注入时，Spring 可以从 singletonFactories 中获取 ObjectFactory，并通过它来创建实例，从而解决了循环依赖的问题。&lt;br/&gt;支持延迟初始化单例 Bean&lt;br/&gt;对于一些非常耗费资源的单例 Bean，我们可以选择延迟初始化。在这种情况下，Spring 会先通过 addSingletonFactory 方法将 Bean 的 ObjectFactory 存储到 singletonFactories 中，当真正需要使用该 Bean 时，才从 ObjectFactory 中获取并创建实例。这样可以提高应用程序的启动速度。&lt;br/&gt;支持 FactoryBean&lt;br/&gt;Spring 中的 FactoryBean 是一种特殊的 Bean，它可以创建其他 Bean 实例。当 Spring 容器需要创建一个由 FactoryBean 产生的 Bean 时，会先通过 addSingletonFactory 方法将 FactoryBean 的实例存储到 singletonFactories 中，然后在需要时从中获取并调用 FactoryBean 的 getObject() 方法创建实例。&lt;br/&gt;支持 Bean 的动态创建&lt;br/&gt;在某些场景下，我们可能需要动态地创建 Bean 实例。Spring 提供了 BeanFactory.getBean() 方法来支持这种需求。当我们调用该方法时，Spring 会先检查 singletonFactories 中是否存在该 Bean 的 ObjectFactory，如果存在则从中获取并创建实例，否则才会真正地创建 Bean 实例。&lt;br/&gt;总之，addSingletonFactory 方法是 Spring 解决单例 Bean 循环依赖问题的关键，同时也支持了延迟初始化、FactoryBean 和动态创建 Bean 等功能。它与 registeredSingletons 一起，构成了 Spring 管理单例 Bean 的核心机制。&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1300" width="560" height="480" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-35" value="&lt;font face=&quot;-apple-system, blinkmacsystemfont, Helvetica Neue, helvetica, segoe ui, arial, roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.5px; white-space-collapse: preserve;&quot;&gt;在 Spring 中，addSingletonFactory 方法是 DefaultSingletonBeanRegistry 类中的一个重要方法，它的主要作用是将一个单例 Bean 的 ObjectFactory 存储到 singletonFactories 缓存中。具体来说，它的作用包括以下几个方面：&lt;br/&gt;解决单例 Bean 的循环依赖问题&lt;br/&gt;这是 addSingletonFactory 方法最主要的作用。在创建单例 Bean 时，如果发生循环依赖，Spring 会通过 addSingletonFactory 方法将当前 Bean 的 ObjectFactory 存储到 singletonFactories 缓存中。后续在依赖注入时，Spring 可以从 singletonFactories 中获取 ObjectFactory，并通过它来创建实例，从而解决了循环依赖的问题。&lt;br/&gt;支持延迟初始化单例 Bean&lt;br/&gt;对于一些非常耗费资源的单例 Bean，我们可以选择延迟初始化。在这种情况下，Spring 会先通过 addSingletonFactory 方法将 Bean 的 ObjectFactory 存储到 singletonFactories 中，当真正需要使用该 Bean 时，才从 ObjectFactory 中获取并创建实例。这样可以提高应用程序的启动速度。&lt;br/&gt;支持 FactoryBean&lt;br/&gt;Spring 中的 FactoryBean 是一种特殊的 Bean，它可以创建其他 Bean 实例。当 Spring 容器需要创建一个由 FactoryBean 产生的 Bean 时，会先通过 addSingletonFactory 方法将 FactoryBean 的实例存储到 singletonFactories 中，然后在需要时从中获取并调用 FactoryBean 的 getObject() 方法创建实例。&lt;br/&gt;支持 Bean 的动态创建&lt;br/&gt;在某些场景下，我们可能需要动态地创建 Bean 实例。Spring 提供了 BeanFactory.getBean() 方法来支持这种需求。当我们调用该方法时，Spring 会先检查 singletonFactories 中是否存在该 Bean 的 ObjectFactory，如果存在则从中获取并创建实例，否则才会真正地创建 Bean 实例。&lt;br/&gt;总之，addSingletonFactory 方法是 Spring 解决单例 Bean 循环依赖问题的关键，同时也支持了延迟初始化、FactoryBean 和动态创建 Bean 等功能。它与 registeredSingletons 一起，构成了 Spring 管理单例 Bean 的核心机制。&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1429" width="560" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja9iDmBJrGFlE1mTThMf-36" target="Ja9iDmBJrGFlE1mTThMf-39">
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ja9iDmBJrGFlE1mTThMf-36" target="Ja9iDmBJrGFlE1mTThMf-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-36" value="添加三级缓存，缓存bean工厂" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1280" width="140" height="50" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-36" value="添加三级缓存，缓存bean工厂" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1429" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-38" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;addSingletonFactory&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1280" width="210" height="60" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-38" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;addSingletonFactory&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1429" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-39" value="填充bean实例的属性" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1410" width="140" height="50" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-39" value="填充bean实例的属性" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1559" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ja9iDmBJrGFlE1mTThMf-41" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;populateBean&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1400" width="150" height="70" as="geometry" />
+        <mxCell id="Ja9iDmBJrGFlE1mTThMf-41" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:12.0pt;&quot;&gt;populateBean&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1549" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
