@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T10:05:56.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="j6YXU4fMsocT37Dzh4gA" version="24.5.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-17T03:02:03.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="Sd51xJAvR_gnb2KpoEGz" version="24.5.4" type="github" pages="6">
   <diagram name="refresh" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="3058" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -914,7 +914,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qUJD8UHOBu6UR1Ye2-HP" name="createBean">
-    <mxGraphModel dx="1426" dy="783" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="775" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1038,37 +1038,37 @@
         <mxCell id="S4S1mrUpPZjzQ0wwpr_d-3" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;invokeAwareMethods&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="bWbYRoXl1rofbrYkxhi3-4" vertex="1">
           <mxGeometry x="310" y="52" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bWbYRoXl1rofbrYkxhi3-4" source="S4S1mrUpPZjzQ0wwpr_d-6" target="KzngyrxInsPPcwRW96m_-2">
+        <mxCell id="KzngyrxInsPPcwRW96m_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="bWbYRoXl1rofbrYkxhi3-4" source="S4S1mrUpPZjzQ0wwpr_d-6" target="KzngyrxInsPPcwRW96m_-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="2020" as="sourcePoint" />
             <mxPoint x="380" y="2185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-2" value="调用自定义初始化方法" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="bWbYRoXl1rofbrYkxhi3-4">
-          <mxGeometry x="90" y="390" width="120" height="50" as="geometry" />
+        <mxCell id="KzngyrxInsPPcwRW96m_-2" value="调用自定义初始化方法" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="bWbYRoXl1rofbrYkxhi3-4" vertex="1">
+          <mxGeometry x="90" y="410" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-3" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;((InitializingBean) bean).afterPropertiesSet();&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bWbYRoXl1rofbrYkxhi3-4">
+        <mxCell id="KzngyrxInsPPcwRW96m_-3" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;((InitializingBean) bean).afterPropertiesSet();&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="bWbYRoXl1rofbrYkxhi3-4" vertex="1">
           <mxGeometry x="250" y="298" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-4" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;invokeCustomInitMethod&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bWbYRoXl1rofbrYkxhi3-4">
+        <mxCell id="KzngyrxInsPPcwRW96m_-4" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Fira Code Medium&#39;,monospace;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#56a8f5;&quot;&gt;invokeCustomInitMethod&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="bWbYRoXl1rofbrYkxhi3-4" vertex="1">
           <mxGeometry x="260" y="390" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KzngyrxInsPPcwRW96m_-6" target="KzngyrxInsPPcwRW96m_-8">
+        <mxCell id="KzngyrxInsPPcwRW96m_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KzngyrxInsPPcwRW96m_-6" target="KzngyrxInsPPcwRW96m_-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-6" value="判断循环依赖？" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="KzngyrxInsPPcwRW96m_-6" value="判断循环依赖？" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=default;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="2370" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4S1mrUpPZjzQ0wwpr_d-8" target="KzngyrxInsPPcwRW96m_-6">
+        <mxCell id="KzngyrxInsPPcwRW96m_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S4S1mrUpPZjzQ0wwpr_d-8" target="KzngyrxInsPPcwRW96m_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KzngyrxInsPPcwRW96m_-8" target="KzngyrxInsPPcwRW96m_-10">
+        <mxCell id="KzngyrxInsPPcwRW96m_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KzngyrxInsPPcwRW96m_-8" target="KzngyrxInsPPcwRW96m_-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-8" value="注册bean销毁时的回调" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=default;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="KzngyrxInsPPcwRW96m_-8" value="注册bean销毁时的回调" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=default;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="2500" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KzngyrxInsPPcwRW96m_-10" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="KzngyrxInsPPcwRW96m_-10" value="" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="2615" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
